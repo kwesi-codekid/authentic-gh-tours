@@ -1,9 +1,9 @@
-import ComingSoon from "../pages/public/ComingSoon"
 import Homepage from "../pages/public/Homepage"
 import About from "../pages/public/About"
 import Contact from "../pages/public/Contact"
 import Gallery from "../pages/public/Gallery"
 import Packages from "../pages/public/Packages"
+import Services from "../pages/public/Services"
 
 export const publicRoutes = [
   {
@@ -21,6 +21,14 @@ export const publicRoutes = [
     name: "About",
     headerText: "About Us",
     subHeaderText: "Get to know us"
+  },
+  {
+    path: "/services",
+    component: Services,
+    exact: true,
+    name: "Services",
+    headerText: "Our Services",
+    subHeaderText: "What we offer"
   },
   {
     path: "/packages",
