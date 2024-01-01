@@ -49,7 +49,7 @@ const Navbar = ({ open, setOpen }) => {
         footer={null}
         width={300}
       >
-        <div className="flex flex-col items-center justify-center w-full h-full">
+        <div className="flex flex-col items-center gap-3 justify-center w-full h-full">
           {publicRoutes.map((route, index) => (
             <p className='text-lg cursor-pointer font-sen' key={index} onClick={() => handleNavigate(route.path)}>{route.name}</p>
           ))}
