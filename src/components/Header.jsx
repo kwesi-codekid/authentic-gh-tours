@@ -16,12 +16,12 @@ const Header = () => {
       <Navbar open={isMenuOpen} setOpen={setIsMenuOpen} />
       <Fade direction="down" triggerOnce cascade>
         {/* header text */}
-        <h1 className="text-white font-dm-serif text-5xl md:text-7xl">{publicRoutes.map((route, index) => 
+        <h1 className="text-white font-dm-serif text-4xl md:text-7xl">{publicRoutes.map((route, index) => 
           route.path === pathname && route.headerText
         )}</h1>
 
         {/* subheader text */}
-        <h2 className="text-slate-50 font-quicksand text-xl md:text-2xl">{publicRoutes.map((route, index) => 
+        <h2 className="text-slate-50 font-quicksand text-lg md:text-2xl">{publicRoutes.map((route, index) => 
           route.path === pathname && route.subHeaderText
         )}</h2>
       </Fade>
