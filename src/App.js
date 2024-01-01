@@ -1,10 +1,17 @@
 // import pages
-import ComingSoon from "./pages/public/ComingSoon";
+import { Routes, Route } from "react-router-dom"
+
+// import layouts
+import Public from "./layouts/Public"
+import Protected from "./layouts/Protected"
 
 function App() {
   return (
     <div className="">
-      <ComingSoon />
+      <Routes>
+        <Route path="/*" element={<Public />}></Route>
+        <Route path="/admin" element={<Protected />}></Route>
+      </Routes>
     </div>
   );
 }

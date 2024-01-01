@@ -1,16 +1,16 @@
-import Lottie from "react-lottie"
-import ComingSoonLottie from "../../assets/lotties/site-under-construction.json"
+// import Lottie from "react-lottie"
+// import ComingSoonLottie from "../../assets/lotties/site-under-construction.json"
 import videoBG from "../../assets/videos/beach.mp4"
 
 const ComingSoon = () => {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: ComingSoonLottie,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  }
+  // const defaultOptions = {
+  //   loop: true,
+  //   autoplay: true,
+  //   animationData: ComingSoonLottie,
+  //   rendererSettings: {
+  //     preserveAspectRatio: "xMidYMid slice"
+  //   }
+  // }
 
   return (
     <div className="relative flex flex-col items-center justify-center h-screen overflow-hidden">

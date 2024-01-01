@@ -8,9 +8,10 @@ module.exports = {
         quicksand: ["Quicksand", "sans-serif"],
         montserrat: ["Montserrat", "sans-serif"],
         sen: ["Sen", "sans-serif"],
+        "dm-serif": ["DM Serif Display", "serif"],
       },
       backgroundImage: {
-        "coming-soon": "linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/src/assets/imgs/travels-and-tours-bg.jpg')",
+        "coming-soon": "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('/src/assets/imgs/header-bg.jpg')",
       }
     },
   },
