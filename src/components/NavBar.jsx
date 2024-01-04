@@ -16,7 +16,7 @@ const Navbar = ({ open, setOpen }) => {
         <div className="flex items-center justify-center w-10 h-10 md:w-12 md:h-12 mr-2 text-white bg-white rounded-full">
           <img src={logo} alt="Logo" className="w-8 md:w-12 h-6 md:h-8" />
         </div>
-        <h1 className="text-lg md:text-2xl font-bold text-white font-montserrat">Authentic Ghana Tours</h1>
+        <h1 className="text-lg md:text-2xl font-bold text-white font-montserrat">Authentic Africa Tours</h1>
       </div>
 
       <div className="hidden md:flex items-center justify-between">

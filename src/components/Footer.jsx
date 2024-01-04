@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
           <div className="flex items-center gap-2">
             <img src={logo} alt="logo" className='h-12' />
-            <h1 className="text-2xl font-bold text-blue-900 font-dm-serif">Authentic Ghana Tours</h1>
+            <h1 className="text-2xl font-bold text-blue-900 font-dm-serif">Authentic Africa Tours</h1>
           </div>
         </div>
       </div>

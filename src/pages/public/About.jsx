@@ -33,7 +33,7 @@ const About = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-dm-serif text-2xl md:text-4xl">We have been in the tourism industry for more than 20 years</h3>
 
-            <p className="font-quicksand">Welcome to Authentic Ghana Tours, where every journey is a chapter in the vibrant story of Ghana. Our story began with a passion for showcasing the true essence of this remarkable West African gem.</p>
+            <p className="font-quicksand">Welcome to Authentic Africa Tours, where every journey is a chapter in the vibrant story of Ghana. Our story began with a passion for showcasing the true essence of this remarkable West African gem.</p>
 
             <p className="font-quicksand">In the heart of our narrative is a team of dedicated travel enthusiasts realized that Ghana, with its rich tapestry of cultures, deserved to be experienced in a way that goes beyond the ordinary.</p>
 
